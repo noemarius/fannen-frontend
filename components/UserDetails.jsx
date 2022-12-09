@@ -4,7 +4,7 @@ import { Card } from './Card'
 import { Title } from './Title'
 import { Text } from './Text'
 import { LinkButton } from './LinkButton'
-import { useAuth } from '@/hooks/auth'
+import { useAuth } from '/hooks/auth'
 
 export function UserDetails(props) {
     const { user } = useAuth()

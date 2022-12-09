@@ -1,7 +1,7 @@
 import AuthSessionStatus from '/components/AuthSessionStatus'
 import Button from '/components/Button'
 import Input from '/components/Input'
-import InputError from '/../vendor/laravel/breeze/stubs/inertia-react/resources/js/Components/InputError'
+import InputError from '/vendor/laravel/breeze/stubs/inertia-react/resources/js/Components/InputError'
 import Label from '/components/Label'
 import Link from 'next/link'
 import { AlignLeft } from '/components/AlignLeft'
