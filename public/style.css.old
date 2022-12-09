@@ -1,0 +1,183 @@
+/* * {
+    box-sizing: border-box;
+    outline: 1px solid green !important;
+} */
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+table{
+    color:black;
+}
+
+
+h1,
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.button {
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    height: 20px;
+    width: auto;
+    justify-content: center;
+    padding: 16px 20px;
+}
+
+.catContainer {
+    align-items: left;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    flex: 0 0 15%;
+}
+
+.catLink {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.createForm {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.form {
+    border: 1px solid white;
+    height: 100%;
+    text-align: center;
+}
+
+.formButton {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding: 4px;
+}
+
+.formP {
+    color: white;
+    font-size: 20px;
+}
+
+.formBreak {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.headerWrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 92vh;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.userContainer {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    flex: 0 0 75%;
+    padding: 0px 60px;
+    margin-top: 40px;
+}
+
+.wrap {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 372px;
+}
+
+#users {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#users td,
+#users th {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(211, 211, 211);
+    color: white;
+}
